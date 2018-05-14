@@ -100,9 +100,8 @@ a.imanal {
     left: 32%;
     top: 30%;
     width: 55%;
-    animation: sport .9s ease-in-out;
-    animation-delay: 30s;
-    animation-iteration-count: 10;
+    animation: sport .9s ease-in-out infinite;
+    animation-delay: 28s;
     opacity: 0;
 }
 
@@ -133,7 +132,7 @@ a.imanal {
 .dram2 {
     position: absolute;
     text-align: center;
-    left: 40%;
+    left: 45%;
     top: 5%;
     width: 15%;
     opacity: 0;
@@ -350,7 +349,7 @@ a.imanal {
         left: 0%;
     }
 
-    .sport, .masnakcir {
+     .masnakcir {
         position: absolute;
         left: 20%;
     }
@@ -363,15 +362,37 @@ a.imanal {
 
    .dram1{
        position: absolute;
-       left: 58%;
+       left: 32%;
+       top:53%
    }
+
+
+    .dram2{
+        position: absolute;
+        left: 32%;
+    }
+   }
+.mrcashar{
+
+    position: absolute;
+    left: 53%;
+
 }
 
-.mrcashar {
+.sport{
+    content: url(../images/sport1.png);
+    width: 20%;
     position: absolute;
-    left: 35%;
-    top: 45%;
+    top: 8%;
+    left: 37%;
 }
+
+.text {
+    background:  url("../images/2.png"), url("../images/3.png"), url("../images/4.png"),  url('../images/c1.png'), url('../images/c2.png'), url('../images/c3.png'), url('../images/c4.png'),  url('../images/c6.png');
+    background-repeat: no-repeat;
+    background-position:  64% 1%, 77% 100%, 34% 100%,  78% 0%, 46.3% 7%, 26.5% 88%, 28.5% 0%,  48% 100%
+}
+
 
 
 
