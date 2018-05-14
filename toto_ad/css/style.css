@@ -1,0 +1,389 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.people {
+    float: left;
+    background: url("../images/bckg3.png"), url('../images/conf.png');
+    width: 38.2%;
+    height: 120px;
+    position: relative;
+    display: inline;
+
+}
+
+.text {
+    float: right;
+    width: 61.8%;
+    height: 120px;
+
+}
+
+.toto {
+    float: right;
+    height: 120px;
+    width: 30%;
+    padding-top: 17px;
+    text-align: right;
+}
+
+#banner {
+    background: url(../images/bg2.png);
+    background-position: 88% 45%;
+    display: block;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.layer-bg {
+    background: url(../images/bg.png);
+    opacity: .8;
+    height: 120px;
+    width: 100%;
+}
+
+.people img {
+    position: absolute;
+    z-index: 1;
+}
+
+.first {
+    bottom: 0;
+    left: 5.1%;
+}
+
+.second {
+    left: 24.3%;
+    bottom: 0;
+}
+
+.third {
+    bottom: 0;
+    left: 34%;
+}
+
+.fourth {
+    bottom: 0;
+    left: 58%;
+}
+
+.fifth {
+    bottom: 0;
+    left: 78%;
+}
+
+.text {
+    background: url("../images/1.png"), url("../images/2.png"), url("../images/3.png"), url("../images/4.png"), url("../images/5.png"), url('../images/c1.png'), url('../images/c2.png'), url('../images/c3.png'), url('../images/c4.png'), url('../images/c5.png'), url('../images/c6.png');
+    background-repeat: no-repeat;
+    background-position: .5% 99%, 64% 1%, 77% 100%, 34% 100%, 16% 1%, 78% 0%, 46.3% 7%, 26.5% 88%, 28.5% 0%, 6% 4%, 48% 100%
+}
+
+img.gaming {
+    position: absolute;
+    top: 13.5%;
+    right: 1.9%;
+}
+
+a.imanal {
+    position: absolute;
+    top: 50%;
+    right: 31px;
+}
+
+.sport {
+    position: absolute;
+    left: 32%;
+    top: 30%;
+    width: 55%;
+    animation: sport .9s ease-in-out;
+    animation-delay: 30s;
+    animation-iteration-count: 10;
+    opacity: 0;
+}
+
+.masnakcir {
+    position: absolute;
+    text-align: center;
+    left: 32%;
+    top: 30%;
+    width: 55%;
+    animation: masnakcir 1s ease-in-out;
+    animation-iteration-count: 5;
+    opacity: 0;
+}
+
+.dram1 {
+    position: absolute;
+    text-align: center;
+    left: 70%;
+    top: 5%;
+    width: 15%;
+    opacity: 0;
+    animation: dram1 2s linear infinite;
+    animation-delay: 6s;
+    animation-iteration-count: 10;
+
+}
+
+.dram2 {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    top: 5%;
+    width: 15%;
+    opacity: 0;
+    animation: dram1 2s linear infinite;
+    animation-delay: 6s;
+    animation-iteration-count: 10;
+
+}
+
+.mrcashar {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    left: 60%;
+    top: 20%;
+    animation: masnakcir 2s linear infinite;
+    animation-delay: 6s;
+    animation-iteration-count: 10;
+}
+
+@keyframes masnakcir {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .75;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes sport {
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .75;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes dram1 {
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .75;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    color: #fff;
+    z-index: 10;
+    font-size: 25px;
+}
+
+#banner2 {
+    background-image: url("../images/poqr.png");
+    display: none;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+
+}
+
+.cointainer {
+    background: url('../images/ball3.png'), url('../images/ball1.png'), url('../images/ball2.png'), url('../images/ball4.png'),
+    url('../images/ball5.png'), url('../images/coin1.png'), url('../images/coin2.png'), url('../images/coin8.png'),
+    url('../images/coin4.png'), url('../images/coin5.png'), url('../images/coin6.png'), url('../images/coin7.png'), url('../images/conf.png');
+    background-repeat: no-repeat;
+    background-position: 283px 94px, 76px 71px, 287px 0, 147px 0, 11px 7px, 122px 76px, 261px 2px, 106px 2px, 309px 41px, 198px 0, 101px 108px, 276px 76px, -529px 0;
+    height: 120px;
+
+}
+
+.boy {
+    position: absolute;
+    top: 1px;
+}
+
+.toto1 {
+    position: absolute;
+    left: 73%;
+    top: 81%;
+}
+
+.toto2 {
+    position: absolute;
+    left: 39%;
+    top: 81%;
+}
+
+.anim1 {
+    position: absolute;
+    top: 16%;
+    left: 32%;
+    animation: masnakcir 1s ease-in-out;
+    animation-iteration-count: 5;
+    opacity: 0;
+}
+
+.anim2 {
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0;
+    line-height: 2;
+    animation: fond 3s ease-in-out;
+    animation-delay: 6s;
+    animation-iteration-count: 4;
+
+}
+
+.dram4 {
+    position: absolute;
+    top: 15%;
+    left: 68%;
+    opacity: 0;
+    animation: dram1 2s linear infinite;
+    animation-delay: 19s;
+    animation-iteration-count: 10;
+
+}
+
+.dram3 {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    opacity: 0;
+    animation: dram1 2s linear infinite;
+    animation-delay: 19s;
+    animation-iteration-count: 10;
+
+}
+
+.mrcashar1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    opacity: 0;
+    animation: dram1 2s linear infinite;
+    animation-delay: 19s;
+    animation-iteration-count: 10;
+}
+
+.sport1 {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    animation: sport1 1s ease-in-out infinite;
+    animation-delay: 40s;
+    opacity: 0;
+
+}
+
+@keyframes sport1 {
+
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .75;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes fond {
+
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .75;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 600px)and (max-width: 768px) {
+    .first, .second, .fourth, .fifth {
+        display: none;
+    }
+
+    .third {
+        position: absolute;
+        left: 0%;
+    }
+
+    .sport, .masnakcir {
+        position: absolute;
+        left: 20%;
+    }
+
+    .gaming {
+        position: absolute;
+        top: 4%;
+        right: 1.9%;
+    }
+
+   .dram1{
+       position: absolute;
+       left: 58%;
+   }
+}
+
+.mrcashar {
+    position: absolute;
+    left: 35%;
+    top: 45%;
+}
+
+
+
+@media screen and (min-width: 320px)and (max-width: 600px) {
+    #banner {
+        display: none;
+    }
+
+    #banner2 {
+        display: block;
+    }
+
+}
+
+
