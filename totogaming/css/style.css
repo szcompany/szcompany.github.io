@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.banner {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    display: table;
+
+}
+
+
+.people {
+    /*background: url('../images/bg1.png') ;*/
+    background: url("../images/bg3.png");
+    float: left;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 120px;
+}
+
+.game {
+    background: url("../images/bg4.png");
+    position: relative;
+    height: 120px;
+
+}
+
+.first {
+    position: absolute;
+    left: 37px;
+    top: -53px;
+
+}
+
+.second {
+    position: absolute;
+    top: 18px;
+    left: 176px;
+}
+
+.third {
+    position: absolute;
+    left: 289px;
+    top: -33px;
+}
+
+.forth {
+    position: absolute;
+    top: 20px;
+    left: 427px;
+}
+
+.fifth {
+    position: absolute;
+    top: -30px;
+    left: 576px;
+}
+
+.confetti {
+    z-index: -1;
+}
+
+.ball1 {
+    position: absolute;
+    top: 51px;
+    left: 739px;
+}
+
+.ball2 {
+    position: absolute;
+    left: 1454px;
+    top: -22px;
+}
+
+.ball3 {
+    position: absolute;
+    top: 63px;
+    left: 1587px;
+}
+
+.ball4 {
+    position: absolute;
+    top: 95px;
+    left: 1110px;
+}
+
+.ball5 {
+    position: absolute;
+    top: -22px;
+    left: 913px;
+}
+
+.coin1 {
+    position: absolute;
+    top: 92px;
+    left: 1043px;
+}
+
+.coin2 {
+    position: absolute;
+    top: 7px;
+    left: 1277px;
+}
+
+.coin3 {
+    position: absolute;
+    top: -13px;
+    left: 1062px;
+}
+
+.coin4 {
+    position: absolute;
+    top: 88px;
+    left: 925px;
+}
+
+.coin5 {
+    position: absolute;
+    top: -16px;
+    left: 1624px;
+}
+
+.coin6 {
+    position: absolute;
+    top: 5px;
+    left: 800px;
+}
+
+.imanal {
+    position: absolute;
+    top: 60px;
+    left: 1694px;
+}
+
+.toto {
+    position: absolute;
+    top: 14px;
+    left: 1696px;
+}
+
+.sport {
+    position: absolute;
+    left: 809px;
+    top: 23px;
+}
+
+.dram1 {
+    top: -7px;
+    left: 1307px;
+    position: absolute;
+    opacity: 0;
+    animation: dram1 .5s linear infinite;
+    animation-delay: 3s;
+    animation-iteration-count: 15;
+
+}
+
+@keyframes dram1 {
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .75;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.dram2 {
+    top: -7px;
+    left: 947px;
+    position: absolute;
+    opacity: 0;
+    animation: dram1 .5s linear;
+    animation-iteration-count: 15;
+
+}
+
+@keyframes dram1 {
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .75;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    color: #fff;
+    z-index: 10;
+    font-size: 25px;
+}
+
+#banner2{
+    width: auto;
+    height: 120px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+
+
+}
+
+.banner_container2{
+    width: 320px;
+}
+
+.third3{
+    position: absolute;
+    top:1px
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .people {
+        float: none;
+        margin-right:0;
+        width:auto;
+    }
+}

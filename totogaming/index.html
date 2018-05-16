@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toto Gaming</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="banner" id="banner"  >
+    <span id='close'
+          onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+    <div class="banner_container">
+        <div class="people">
+            <img src="images/first.png" alt="first" class="first">
+            <img src="images/second.png" alt="second" class="second">
+            <img src="images/third.png" alt="third" class="third">
+            <img src="images/forth.png" alt="forth" class="forth">
+            <img src="images/fifth.png" alt="fifth" class="fifth">
+            <img src="images/confetti.png" alt="confetti" class="confetti">
+        </div>
+    </div>
+    <div class="game">
+
+        <img src="images/ball1.png" alt="ball1" class="ball1">
+        <img src="images/ball2.png" alt="ball2" class="ball2">
+        <img src="images/ball3.png" alt="ball3" class="ball3">
+        <img src="images/ball4.png" alt="ball4" class="ball4">
+        <img src="images/ball5.png" alt="ball5" class="ball5">
+        <img src="images/coin1.png" alt="coin1" class="coin1">
+        <img src="images/coin2.png" alt="coin2" class="coin2">
+        <img src="images/coin3.png" alt="coin3" class="coin3">
+        <img src="images/coin4.png" alt="coin4" class="coin4">
+        <img src="images/coin5.png" alt="coin5" class="coin5">
+        <img src="images/coin6.png" alt="coin6" class="coin6">
+        <a href="https://totogaming.am/" target="_blank" style="cursor: pointer"><img src="images/imanal.png"
+                                                                                      alt="imanal"
+                                                                                      class="imanal"></a>
+        <div class="totogame">
+            <img src="images/toto.png" alt="toto" class="toto">
+            <img src="images/sport.png" alt="sport" class="sport">
+        </div>
+        <div class="animation">
+            <img src="images/dram1.png" alt="dram1" class="dram1">
+            <img src="images/dram2.png" alt="dram2" class="dram2">
+
+        </div>
+
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    window.onload = function () {
+        document.getElementById('close').onclick = function () {
+            this.parentNode.parentNode.parentNode
+                .removeChild(this.parentNode.parentNode);
+            return false;
+        };
+    }
+
+
+</script>
+</body>
+
+</html>
